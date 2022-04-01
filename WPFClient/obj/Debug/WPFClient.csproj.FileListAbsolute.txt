@@ -31,7 +31,6 @@ D:\MicrosoftVisualStudio\source\repos\Chat\WPFClient\obj\Debug\WPFClient.pdb
 D:\MicrosoftVisualStudio\source\repos\ChatTCPWPF-main\Chat\WPFClient\bin\Debug\WPFClient.exe.config
 D:\MicrosoftVisualStudio\source\repos\ChatTCPWPF-main\Chat\WPFClient\bin\Debug\WPFClient.exe
 D:\MicrosoftVisualStudio\source\repos\ChatTCPWPF-main\Chat\WPFClient\bin\Debug\WPFClient.pdb
-D:\MicrosoftVisualStudio\source\repos\ChatTCPWPF-main\Chat\WPFClient\obj\Debug\WPFClient.csproj.AssemblyReference.cache
 D:\MicrosoftVisualStudio\source\repos\ChatTCPWPF-main\Chat\WPFClient\obj\Debug\MainWindow.g.cs
 D:\MicrosoftVisualStudio\source\repos\ChatTCPWPF-main\Chat\WPFClient\obj\Debug\App.g.cs
 D:\MicrosoftVisualStudio\source\repos\ChatTCPWPF-main\Chat\WPFClient\obj\Debug\WPFClient_MarkupCompile.cache

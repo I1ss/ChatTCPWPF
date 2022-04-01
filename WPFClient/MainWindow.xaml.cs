@@ -25,7 +25,7 @@ namespace WPFClient
     {
         static string userName;
         private const string host = "127.0.0.1";
-        private const int port = 8888;
+        private const int port = 8889;
         static TcpClient client;
         static NetworkStream stream;
         private bool close = true;
