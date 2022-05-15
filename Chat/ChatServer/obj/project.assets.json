@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MicrosoftVisualStudio\\source\\repos\\Chat\\ChatServer\\ChatServer.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\Chat\\ChatServer\\ChatServer.csproj",
       "projectName": "ChatServer",
-      "projectPath": "D:\\MicrosoftVisualStudio\\source\\repos\\Chat\\ChatServer\\ChatServer.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\Chat\\ChatServer\\ChatServer.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\MicrosoftVisualStudio\\source\\repos\\Chat\\ChatServer\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\Chat\\ChatServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -26,3 +26,16 @@ D:\MicrosoftVisualStudio\source\repos\Chat\ChatServer\obj\Debug\netcoreapp3.1\Ch
 D:\MicrosoftVisualStudio\source\repos\Chat\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.dll
 D:\MicrosoftVisualStudio\source\repos\Chat\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.pdb
 D:\MicrosoftVisualStudio\source\repos\Chat\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.genruntimeconfig.cache
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\bin\Debug\netcoreapp3.1\ChatServer.exe
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\bin\Debug\netcoreapp3.1\ChatServer.deps.json
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\bin\Debug\netcoreapp3.1\ChatServer.runtimeconfig.json
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\bin\Debug\netcoreapp3.1\ChatServer.runtimeconfig.dev.json
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\bin\Debug\netcoreapp3.1\ChatServer.dll
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\bin\Debug\netcoreapp3.1\ChatServer.pdb
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.AssemblyInfo.cs
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.dll
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.pdb
+C:\Users\User\Desktop\chat\ChatTCPWPF\Chat\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.genruntimeconfig.cache

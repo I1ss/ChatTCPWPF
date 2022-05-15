@@ -10,7 +10,7 @@ namespace ChatClient
     {
         static string userName;
         private const string host = "127.0.0.1";
-        private const int port = 8888;
+        private const int port = 8889;
         static TcpClient client;
         static NetworkStream stream;
         static void Main(string[] args)
