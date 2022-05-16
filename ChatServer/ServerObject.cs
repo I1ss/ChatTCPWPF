@@ -23,14 +23,14 @@ namespace ChatServer
     public class ServerObject
     {
         static TcpListener tcpListener; 
-        public List<ClientObject> clients = new List<ClientObject>(); 
-        internal List<String> clients_names = new List<String>();
+        public List<ClientObject> clients = new List<ClientObject>();
+        public List<String> clients_names = new List<String>();
         private string ip;
         private string data;
         private int port;
         public ServerObject()
         {
-            using (StreamReader file = File.OpenText("conf.json"))
+            using (StreamReader file = File.OpenText("C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatServer\\bin\\Debug\\netcoreapp3.1\\conf.json"))
             {
                 Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
                 Server serv = (Server)serializer.Deserialize(file, typeof(Server));
@@ -39,7 +39,7 @@ namespace ChatServer
                 this.data = serv.data;
             }
         }
-        internal void SetNewName(String name)
+        public void SetNewName(String name)
         {
             clients_names.Add(name);
             BroadcastMessage("Users: " + String.Join(" ", clients_names) + " ", null);

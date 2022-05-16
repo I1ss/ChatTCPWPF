@@ -31,7 +31,6 @@ C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\bin\Debug\netcoreapp3.1\ChatCli
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\bin\Debug\netcoreapp3.1\ChatClient.runtimeconfig.dev.json
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\bin\Debug\netcoreapp3.1\ChatClient.dll
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\bin\Debug\netcoreapp3.1\ChatClient.pdb
-C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.AssemblyInfo.cs
@@ -39,3 +38,4 @@ C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\obj\Debug\netcoreapp3.1\ChatCli
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.dll
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.pdb
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.genruntimeconfig.cache
+C:\Users\User\Desktop\chat\ChatTCPWPF\ChatClient\obj\Debug\netcoreapp3.1\ChatClient.csproj.AssemblyReference.cache

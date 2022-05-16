@@ -54,3 +54,4 @@ C:\Users\User\Desktop\chat\ChatTCPWPF\ChatServer\obj\Debug\netcoreapp3.1\ChatSer
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.genruntimeconfig.cache
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatServer\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\User\Desktop\chat\ChatTCPWPF\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.csproj.CopyComplete
+C:\Users\User\Desktop\chat\ChatTCPWPF\ChatServer\obj\Debug\netcoreapp3.1\ChatServer.csproj.AssemblyReference.cache

@@ -1,40 +1,36 @@
-using System.Net.Sockets;
-using Moq;
 using NUnit.Framework;
 using ChatServer;
+using System.Net.Sockets;
 
 namespace Tests
 {
     public class ConnectionManagerTests
     {
-        private Mock<ClientObject> _mockClientObj;
-        private ServerObject _serverObj;
-
-        [SetUp]
-        public void Setup()
+        [Test]
+        public void AddConnectionTest()
         {
-            var tcpClient = new TcpClient();
-            var serverObject = new ServerObject();
-            _serverObj = new ServerObject();
-            _mockClientObj = new Mock<ClientObject>(tcpClient, serverObject);
+            ServerObject so = new ServerObject();
+            ClientObject co = new ClientObject(new TcpClient(), so);
+            so.AddConnection(co);
+            Assert.That(so.clients.Count == 1);
         }
 
         [Test]
-        public void Add()
+        public void RemoveConnectionTest()
         {
-            _serverObj.AddConnection(_mockClientObj.Object);
-            Assert.IsNotEmpty(_serverObj.clients);
+            ServerObject so = new ServerObject();
+            ClientObject co = new ClientObject(new TcpClient(), so);
+            so.AddConnection(co);
+            so.RemoveConnection(co.Id, co.userName);
+            Assert.That(so.clients.Count == 0);
         }
 
         [Test]
-        public void Delete()
+        public void SetNewNameTest()
         {
-            _serverObj.AddConnection(_mockClientObj.Object);
-            int size = _serverObj.clients.Count;
-            _serverObj.RemoveConnection(_mockClientObj.Object.Id, _mockClientObj.Object.userName);
-            Assert.That(_serverObj.clients.Count != size);
+            ServerObject so = new ServerObject();
+            so.SetNewName("Alex");
+            Assert.That(so.clients_names[0] == "Alex");
         }
-
-        // a matching constructor for the given arguments was not found on the mocked type.
     }
 }

@@ -17,3 +17,4 @@ C:\Users\User\Desktop\chat\ChatTCPWPF\WPFMainClient\obj\Debug\netcoreapp3.1\WPFM
 C:\Users\User\Desktop\chat\ChatTCPWPF\WPFMainClient\obj\Debug\netcoreapp3.1\WPFMainClient.dll
 C:\Users\User\Desktop\chat\ChatTCPWPF\WPFMainClient\obj\Debug\netcoreapp3.1\WPFMainClient.pdb
 C:\Users\User\Desktop\chat\ChatTCPWPF\WPFMainClient\obj\Debug\netcoreapp3.1\WPFMainClient.genruntimeconfig.cache
+C:\Users\User\Desktop\chat\ChatTCPWPF\WPFMainClient\obj\Debug\netcoreapp3.1\WPFMainClient.csproj.AssemblyReference.cache
