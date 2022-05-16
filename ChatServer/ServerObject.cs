@@ -5,17 +5,44 @@ using System.Net.Sockets;
 using System.Net;
 using System.Text;
 using System.Threading;
+using Newtonsoft.Json;
+using System.Text.Json;
+using System.IO;
 
 namespace ChatServer
 {
+    public class Server
+    {
+        [JsonProperty("ip")]
+        public string ip { set; get; }
+        [JsonProperty("data")]
+        public string data { set; get; }
+        [JsonProperty("port")]
+        public int port { set; get; }
+    }
     public class ServerObject
     {
         static TcpListener tcpListener; 
         public List<ClientObject> clients = new List<ClientObject>(); 
         internal List<String> clients_names = new List<String>();
+        private string ip;
+        private string data;
+        private int port;
+        public ServerObject()
+        {
+            using (StreamReader file = File.OpenText("conf.json"))
+            {
+                Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
+                Server serv = (Server)serializer.Deserialize(file, typeof(Server));
+                this.port = serv.port;
+                this.ip = serv.ip;
+                this.data = serv.data;
+            }
+        }
         internal void SetNewName(String name)
         {
             clients_names.Add(name);
+            BroadcastMessage("Users: " + String.Join(" ", clients_names) + " ", null);
         }
         public void AddConnection(ClientObject clientObject)
         {
@@ -31,6 +58,7 @@ namespace ChatServer
                 {
                     clients.Remove(client);
                     clients_names.Remove(userName);
+                    BroadcastMessage("Users: " + String.Join(" ", clients_names) + " ", null);
                 }
                 catch (Exception ex)
                 {
@@ -43,7 +71,7 @@ namespace ChatServer
         {
             try
             {
-                tcpListener = new TcpListener(IPAddress.Any, 8889);
+                tcpListener = new TcpListener(IPAddress.Parse(ip), port);
                 tcpListener.Start();
                 Console.WriteLine("Сервер запущен. Ожидание подключений...");
 

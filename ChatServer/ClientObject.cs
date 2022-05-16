@@ -49,7 +49,7 @@ namespace ChatServer
                 }
                 userName = message;
                 server.SetNewName(message);
-                message = userName + " вошел в чат";
+                message = "Пользователь " + userName + " вошел в чат";
                 server.BroadcastMessage(message, this.Id);
                 Console.WriteLine(message);
                 while (true)
@@ -63,7 +63,7 @@ namespace ChatServer
                             throw new Exception("bad msg");
                         }
                         StringBuilder name = new StringBuilder(), msg = new StringBuilder();
-                        message = String.Format("{0}: {1}", userName, message);
+                        message = String.Format("Пользователь {0}: {1}", userName, message);
                         if (temp.Length >= 4 && temp.Substring(0, 4) == "Send") 
                         {
                             int k = 5;
@@ -86,7 +86,8 @@ namespace ChatServer
                     }
                     catch
                     {
-                        message = string.Format("{0}: покинул чат", userName);
+                        message = string.Format("Пользователь {0}: покинул чат", userName);
+                        server.RemoveConnection(this.Id, this.userName);
                         Console.WriteLine(message);
                         server.BroadcastMessage(message, this.Id);
                         break;
@@ -99,7 +100,7 @@ namespace ChatServer
             }
             finally
             {
-                server.RemoveConnection(this.Id, this.userName);
+                //server.RemoveConnection(this.Id, this.userName);
                 Close();
             }
         }

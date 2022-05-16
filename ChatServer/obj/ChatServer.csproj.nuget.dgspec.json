@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatServer\\ChatServer.csproj": {}
+    "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatServer\\ChatServer.csproj": {}
   },
   "projects": {
-    "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatServer\\ChatServer.csproj": {
+    "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatServer\\ChatServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatServer\\ChatServer.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatServer\\ChatServer.csproj",
         "projectName": "ChatServer",
-        "projectPath": "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatServer\\ChatServer.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatServer\\ChatServer.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatServer\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

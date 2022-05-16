@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatClient\\ChatClient.csproj": {}
+    "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatClient\\ChatClient.csproj": {}
   },
   "projects": {
-    "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatClient\\ChatClient.csproj": {
+    "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatClient\\ChatClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatClient\\ChatClient.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatClient\\ChatClient.csproj",
         "projectName": "ChatClient",
-        "projectPath": "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatClient\\ChatClient.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatClient\\ChatClient.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatClient\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

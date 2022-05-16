@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LDyNW/n9yT5KTxNFirPzGbUV9DdKg3KbKX2nUPI9Gx8aArtAtGrYxv36IVBuG61eZ649GbQq+ulkYoMzSko+yw==",
+  "dgSpecHash": "cVjKcvGwmyo24Hkfl/vt2u6UPB9J0GYMaz5F5shPejjLTy/WaK1gSPJqDxTYw8ZOz6b07y6I2w1pZaLqsfa8Fw==",
   "success": true,
-  "projectFilePath": "D:\\MicrosoftVisualStudio\\source\\repos\\ChatTCPWPF-main\\Chat\\ChatServer\\ChatServer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\chat\\ChatTCPWPF\\ChatServer\\ChatServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
